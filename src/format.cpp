@@ -25,7 +25,7 @@ std::string Format::ElapsedTime(long seconds) {
   stream_obj << hour<<":"<<min<<":"<<sec;
 
     stream_obj >>uptime_;
-    stream_obj.close();
+  
   return uptime_;
   // return to_string(hour) + ":" +  to_string(min);
   //return FillSpaces(hour) + FillSpaces(min) + FillSpaces(sec, false);
